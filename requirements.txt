@@ -1,0 +1,24 @@
+1) Should be a search box with a button at the top
+2) When the search box button will be clicked the result
+   will be shown on website according to the search query.
+3) Search results can be in any design.
+4) I will get lots of book information at the given url.
+5) Book name should contain in search result.
+6) Must display the book author name.
+7) If there is no autor name must handle the exception
+8) Must show the first publication date, if not avaiable 
+   handle it in your own way.
+9) Must show the search result number.
+10) If search result is not available show message in dom
+    as no result found.
+
+
+
+Bouns Mark requirement: 
+1) Must use arrow functions
+2) Must use forEach loop
+3) use === as comparison operator
+4) Book cover image url should be dyanamic. Example given 
+   git repo.
+5) Varable names should be resonable and should be well 
+   commented. 
