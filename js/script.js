@@ -11,8 +11,8 @@ document.getElementById('searchBtn').addEventListener('click', () => {
         return;
     }
 
-    const url = `https://openlibrary.org/search.json?q=${searchedItem}`;
     document.getElementById('totalBook').innerText = '';
+    const url = `https://openlibrary.org/search.json?q=${searchedItem}`;
     fetch(url)
         .then(response => response.json())
         .then(data => displayBook(data));
