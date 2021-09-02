@@ -36,6 +36,7 @@ const displayBook = books => {
                 <div class="card-body">
                     <h3 class="card-title fs-3 fw-bold">${book.title}</h3>
                     <h5 class="card-text fs-5">Authors: ${book.author_name ? book.author_name : 'Unavailable'}</h5>
+                    <h5 class="card-text fs-5">Publisher: ${book.publisher ? book.publisher : 'Unavailable'}</h5>
                     <h5 class="card-text fs-5">Publish year: ${book.first_publish_year ? book.first_publish_year : 'Unavailable'}</h5>
                 </div>
             </div>
